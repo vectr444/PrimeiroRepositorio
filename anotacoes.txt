@@ -1,0 +1,31 @@
+git add: adicionar um arquivo
+
+git status: mostra o status do projeto
+
+commits: alterações salvas do projeto
+
+git commit -m "nome do commit": faz um commit com as alterações feitas
+
+"git add .": adiciona as alterações para o stage para então ser feito o commit
+
+git log: mostra o histórico de commits
+
+git remote add origin https://github.com/vectr444/PrimeiroRepositorio.git: conecta com o reoisitorio remoto
+
+git push -u origin main: envia as alterações para o repositorio
+
+git clone "link do repositorio": clona o repositório do link
+
+git pull origin main: baixa as alterações do repositório remoto, "origin" apelido do repositorio, "main" nome da branch(nesse caso é main))
+
+git branch: mostra as branchs do repositório
+
+git branch nome-da-branch: cria uma nova branch
+
+git checkout nome-da-branch: muda de branch
+
+git checkout -b nome-da-branch: cria uma nova branch e já muda para ela
+
+git branch -D nome-da-branch: deleta a branch
+
+git restore: restaura todas as alterações feitas (tipo um ctrl + z)
