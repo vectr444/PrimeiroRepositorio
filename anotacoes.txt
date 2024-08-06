@@ -1,3 +1,18 @@
+Adicionar um projeto no github:
+
+->ir até a pasta do projeto e digitar cmd 
+-> git init
+-> git add .
+-> git commit -m "nome do commit"
+-> git remote add origin https://github.com/seu-usuario/nome-do-repositorio.git
+-> git push -u origin master/main/qualquer nome para a primeira branch
+
+Carregar um projeto 
+
+-> git pull origin nome da branch
+
+============================================
+
 git add: adicionar um arquivo
 
 git status: mostra o status do projeto
@@ -29,3 +44,127 @@ git checkout -b nome-da-branch: cria uma nova branch e já muda para ela
 git branch -D nome-da-branch: deleta a branch
 
 git restore: restaura todas as alterações feitas (tipo um ctrl + z)
+
+===================================
+
+(cmd) "code ." : cria um projeto no visual studio na pasta que vc criou
+
+<html>
+    <head>
+			<!-- TITLE = NOME DA JANELA NO NAVEGADOR -->
+			<title>PINTO GROSSO</title>
+    </head>
+    <body>
+        <!-- H1 - H6 TIPOS DE TITULOS, 1 AO 6, QUANTO MENOR O NUMERO MAIR O TITULO -->
+        <h1>aaaaaaaaaaaa</h1>
+        <h2>aaaaaaaaaaaa</h2>
+        <h3>aaaaaaaaaaaa</h3>
+        <h4>aaaaaaaaaaaa</h4>
+        <h5>aaaaaaaaaaaa</h5>
+
+				<!-- MARQUEE = FICA MOVENDO O TEXTO PELA TELA HORIZONTALMENTE-->
+        <marquee><h6>aaaaaaaaaaaa</h6></marquee>
+
+        <!-- P = PARAGRAFOS -->
+        <p>CWECWECCCWCCWCDCWD</p>
+
+        <!-- STRONG = NEGRITO -->
+        <p>CWECW <strong>ECCCWCCW</strong> CDCWD</p>
+
+        <!-- EM = ITALICO -->
+        <p>CWECW <em>ECCCWCCW</em> CDCWD</p>
+
+        <!-- S = MARCAR/RISCAR TEXTO -->
+        <p>CWECW <s>ECCCWCCW</s> CDCWD </p>
+
+        <!-- BR / = QUEBRA DE LINHA -->
+        <p>CWECW <s>ECCCWCCW</s> CDCWD <br /> CWECW <s>ECCCWCCW</s> CDCWD</p>
+
+        <!-- OL/UL + LI = LISTA COM PONTOS OU ORDENADA -->
+        <!-- OL = ORDERED LIST (ORDENADA)-->
+        <!-- UL = UNORDERED LIST (PONTOS) -->
+        <ol>
+					<li>fsdfsdfs</li>
+        	<li>werwerwerre</li>
+        	<li>asdadasdsad</li>
+				</ol>
+      
+				<ul>
+					<li>fsdfsdfs</li>
+        	<li>werwerwerre</li>
+        	<li>asdadasdsad</li>
+				</ul>
+
+				<!-- IMG + SRC = adicionar imagem -->
+				<!-- PATH DA IMAGEM QUE ESTÁ EM UMA PASTA DO PROJETO -->
+				<h1>imagem local</h1>
+				<marquee><img src="./images/pessoA.png"/></marquee>
+
+				<!-- IMAGEM DA INTERNET, COLOCAR TODO O LINK DA IMAGEM -->
+				<h1>imagem internet</h1>
+				<img src="https://bringatrailer.com/wp-content/uploads/2022/12/1970_plymouth_road-runner_917f954f-9953-4b71-989c-fa0d7cb6fc97-35397.jpeg?fit=940%2C627"/>
+
+    </body>
+</html>
+
+=============================================
+
+<!-- header = cabeçalho da página -->
+<header>
+
+	<!-- nav = uma seção com links de navegação -->
+	<nav>
+    
+		<!-- a = hiperligação de páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+		<!-- href = recebe o link -->
+		<!-- _blank = abre uma nova janela ao clicar no link -->
+		<a href="https://gx.games/pt-br/games/nqkybq/plug-/" target="_blank"
+		>
+		Alguma coisa
+		</a>
+	</nav>
+</header>
+
+<!-- main = define o conteúdo principal-->
+<main>
+	<!-- section = dividir o conteúdo em macro estruturas, em blocos -->
+	<section></section>
+
+	<!-- cria uma tabela, "border" define o tamanho da borda -->
+	<table border="1">
+
+		<!-- thead = primeira linha ou cabeçalho da tabela -->
+		<thead>
+
+			<!-- tr = cria uma linha na tabela -->
+			<!-- td = cria uma coluna na tabela -->
+			<tr>
+				<!-- colspan = mescla(horizontalmente) a quantidade de colunas definidas -->
+				<td colspan="2">coe</td>
+				<td>rapazeada</td>
+				<td>efrefefff</td>
+			</tr>
+		</thead>
+
+		<!-- tbody = resto da tabela -->
+		<tbody>
+			<tr>
+				<td>coe</td>
+				<td>rapazeada</td>
+
+				<!-- rowspan = mescla(verticalmente) a quantidade de linhas definidas  -->
+				<td rowspan="2">sssssssss</td>
+			</tr>
+			<tr>
+				<td>coe</td>
+				<td>rapazeada</td>
+			</tr>
+		</tbody>
+	</table>
+</main>
+
+<!-- aside = barra lateral -->
+<aside></aside>
+
+<!-- footer = rodapé da página-->
+<footer></footer>
